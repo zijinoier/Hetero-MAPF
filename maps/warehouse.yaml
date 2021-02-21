@@ -1,0 +1,185 @@
+agents:
+  - start: [20, 10, -1.57]
+    name: agent0
+    goal: [80, 60, 0]
+    model:
+      type: Holonomic
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [30, 10, -1.57]
+    name: agent1
+    goal: [90, 60, 0]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [40, 10, -1.57]
+    name: agent2
+    goal: [80, 80, 0]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [50, 10, -1.57]
+    name: agent3
+    goal: [90, 80, 0]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [70, 10, -1.57]
+    name: agent4
+    goal: [30, 80, 3.14]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [80, 10, -1.57]
+    name: agent5
+    goal: [40, 80, 3.14]
+    model:
+      type: Holonomic
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [90, 10, -1.57]
+    name: agent6
+    goal: [30, 60, 3.14]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [100, 10, -1.57]
+    name: agent7
+    goal: [40, 60, 3.14]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [20, 90, 1.57]
+    name: agent8
+    goal: [80, 40, 0]
+    model:
+      type: Holonomic
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [30, 90, 1.57]
+    name: agent9
+    goal: [90, 40, 0]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [40, 90, 1.57]
+    name: agent10
+    goal: [80, 20, 0]
+    model:
+      type: Holonomic
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [50, 90, 1.57]
+    name: agent11
+    goal: [90, 20, 0]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [70, 90, 1.57]
+    name: agent12
+    goal: [30, 20, -3.14]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [80, 90, 1.57]
+    name: agent13
+    goal: [40, 20, -3.14]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [90, 90, 1.57]
+    name: agent14
+    goal: [30, 40, -3.14]
+    model:
+      type: Holonomic
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+  - start: [100, 90, 1.57]
+    name: agent15
+    goal: [40, 40, -3.14]
+    model:
+      type: Ackermann
+      lf: 2
+      lb: 1
+      width: 2.5
+      v: 1.5
+map:
+  dimensions: [120, 100]
+  obs_radius: 3
+  obstacles:
+    - [17.5, 30]
+    - [22.5, 30]
+    - [27.5, 30]
+    - [32.5, 30]
+    - [37.5, 30]
+    - [42.5, 30]
+    - [17.5, 50]
+    - [22.5, 50]
+    - [27.5, 50]
+    - [32.5, 50]
+    - [37.5, 50]
+    - [42.5, 50]
+    - [17.5, 70]
+    - [22.5, 70]
+    - [27.5, 70]
+    - [32.5, 70]
+    - [37.5, 70]
+    - [42.5, 70]
+    - [77.5, 30]
+    - [82.5, 30]
+    - [87.5, 30]
+    - [92.5, 30]
+    - [97.5, 30]
+    - [102.5, 30]
+    - [77.5, 50]
+    - [82.5, 50]
+    - [87.5, 50]
+    - [92.5, 50]
+    - [97.5, 50]
+    - [102.5, 50]
+    - [77.5, 70]
+    - [82.5, 70]
+    - [87.5, 70]
+    - [92.5, 70]
+    - [97.5, 70]
+    - [102.5, 70]
