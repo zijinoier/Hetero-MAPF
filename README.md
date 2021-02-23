@@ -7,12 +7,18 @@ Solve MAPF problem when the agents are heterogeneous.
 
 ## Source Code
 ### Requirement
+
+**For the C++ Code**
+
 ```bash
 sudo apt-get install g++ cmake libboost-program-options-dev libyaml-cpp-dev \
 clang-tidy clang-format python3-matplotlib libompl-dev libeigen3-dev
 ```
+**For the Python visualization script**
 
-> Note: Please make sure your `matplotlib` version is above 2.0, otherwise it may show weird image while visualization. You can upgrade it by `pip3 install -U matplotlib`.
+```bash
+python3 -m pip install -r requirements.txt
+```
 
 ### Build
 ```bash
